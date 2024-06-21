@@ -1,4 +1,4 @@
-resource "local_file" "app" {
-    filename = var.filename    
-  
+resource "local_file" "cyberpunk" {
+  filename     = var.filename
+  content  = var.content
 }
