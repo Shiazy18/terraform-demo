@@ -5,7 +5,7 @@ resource "local_file" "cyberpunk" {
 
 resource "local_file" "variabledemo" {
 
-  for_each = var.listdemo
+  for_each = local.combined
   filename = each.value
   content = each.key
   
